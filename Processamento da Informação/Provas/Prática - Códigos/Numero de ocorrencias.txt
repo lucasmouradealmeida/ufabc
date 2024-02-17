@@ -1,0 +1,56 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pi.EP7;
+
+/**
+ *
+ * @author Lucas Moura
+ */
+import java.util.Scanner;
+
+public class EP7_1 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int t;
+        System.out.print("Digite tamanho: ");
+        t = input.nextInt();
+        int v1[] = new int[t];
+        //valores de v1
+        for (int i = 0; i < t; i++) {
+            System.out.print("valor entre 0 e 9: ");
+            v1[i] = input.nextInt();
+            if (v1[i] >= 0 & v1[i] <= 9) {
+
+            } else {
+                System.out.println("valor errado");
+                i--;
+            }
+        }
+        vetor (v1, t);
+        for (int h : vetor(v1,t)){
+            System.out.print(h+" ");
+        }
+
+    }
+
+    public static int [] vetor (int v1[], int t) {
+        int v2[] = new int[10];
+        int count = 0, x =0;
+        //  contador e v2
+        for (int l = 0; l < 10; l++) {
+            for (int j = 0; j < t; j++) {
+                if (v1[j] == x) {
+                    count++;
+                }
+            }
+            x++;
+            v2[l] = count;
+            count = 0;
+        }
+        return v2;
+    }
+}
