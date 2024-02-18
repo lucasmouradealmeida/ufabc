@@ -1,0 +1,9 @@
+Grupo:
+Gabriel Moraes de Souza - RA: 11201811286
+Lucas Moura de Almeida - RA: 11201811415
+
+Professora com a finalidade de facilitar o processo de programação e o entendimento nós decidimos separar o programa em suas funções principais, portanto o código está segmentado sendo preciso somente rodar o código que se encontra com o nome: "Qdois_main"
+
+Segue o link também do local online em que foi programado e também poderá ser rodado:
+https://octave-online.net/workspace~ruhJLgCpfRdGnXFWQCwQlBZcIcDddhNuWWHhmwoZSUfjNnEy
+
