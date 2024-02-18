@@ -1,0 +1,1042 @@
+[General]
+Program Version=10
+Date of Version=24/Feb/2004
+Engine Type No=1
+Engine Name=Turbojet
+Novice Mode=0
+
+[Options]
+MapInterpolation=0
+EnhancedMetaFiles=1
+dTInterpolation=0
+CloseOffDesignWarning=0
+Trapezoid Top Width=0
+
+[Units]
+SI=1
+Kelvin=1
+Rankine=1
+
+[Fuel]
+Fuel Type=Generic
+
+[Input]
+alt     =0
+dtamb   =6
+humid   =60
+XM      =0
+ZW2Rstd =0.449999988079071
+P2q1    =0.990000009536743
+ZP3q2   =3.90000009536743
+T4_D    =1100
+e34ds   =0.990000009536743
+e34C    =1.60000002384186
+FHV     =43.1240005493164
+WHDBLDq2=0
+hr_hdbld=1
+ZWBLD   =0
+ZWBLq2  =0.00999999977648258
+h_bld   =1
+WCLNq2  =0.0500000007450581
+WCLq2   =0.0500000007450581
+DmCl_T  =0
+PWX     =0
+e_mech  =0.990000009536743
+P4q3    =0.939999997615814
+P6q5    =0.980000019073486
+InPar1  =1
+InPar2  =1
+InPar3  =1
+InPar4  =1
+InPar5  =1
+SDES    =2
+SMODE   =1
+ZXN_HPC =1
+ZT4     =1100
+beta_HPC=0.5
+b_d_HPC =0.5
+beta_HPT=0.5
+dist_P  =0
+dist_T  =0
+sect_Ang=60
+d_W_HPC =0
+d_e_HPC =0
+d_VG    =0
+d_W41R  =0
+d_e_HPT =0
+d_eHPTqN=0
+d_A8    =0
+inert_H =2
+N0_PLA  =0.550000011920929
+N1_PLA  =1.04999995231628
+c_prop  =0.200000002980232
+c_int   =0
+c_diff  =0.100000001490116
+pwx1    =99.9999923706055
+zwbld1  =1.5
+far_L   =0.00300000002607703
+far_H   =0.0329999998211861
+N_dot_l =0.100000001490116
+N_dot_h =0.100000001490116
+tm_const=0.5
+WF_const=0.100000001490116
+Gain    =1
+ScanId  =4
+ScanId  Tol=1
+humid!  =0
+humid!  Tol=1
+W2!     =32.140998840332
+W2!     Tol=1
+XN_HP_A!=14284
+XN_HP_A!Tol=1
+T2!     =280
+T2!     Tol=1
+P2!     =99
+P2!     Tol=1
+T3!     =626.219970703125
+T3!     Tol=1
+P3!     =1228.41796875
+P3!     Tol=1
+WF!     =0.691999971866608
+WF!     Tol=1
+P5!     =375.5419921875
+P5!     Tol=1
+T5!     =1105.76000976563
+T5!     Tol=1
+Pamb!   =101.324996948242
+Pamb!   Tol=1
+FG!     =27.2299995422363
+FG!     Tol=1
+ZWBLD!  =0
+ZWBLD!  Tol=1
+PWX!    =0
+PWX!    Tol=1
+FHV!    =43.1240005493164
+FHV!    Tol=1
+X1Mea   =0
+X1Mea   Tol=1
+X2Mea   =0
+X2Mea   Tol=1
+X3Mea   =0
+X3Mea   Tol=1
+A41r_MEA=100
+SAmbient=2
+ZT1     =293.149993896484
+ZP1     =100
+ZPamb   =101.324996948242
+Zhumid  =60
+SEffC   =1
+E23is   =0.720319628715515
+E23pol  =0.899999976158142
+NStgHPC =8
+FLossHPC=1
+XMexHC  =0.300000011920929
+RhqRtHC =0.899999976158142
+t_c_HC  =0.300000011920929
+d_ec_HC =2
+SCDes   =1
+CXN_H   =117000
+u_t_C   =400
+rr_i_C  =0.5
+XM_i_C  =0.540000021457672
+d2qd_C  =1
+d_min_HC=0
+SEffT   =1
+E45is   =0.899999976158142
+E45pol  =0.899999976158142
+stg_T   =1
+w_EGV   =0
+dmin_T  =0.600000023841858
+dmex_T  =0.600000023841858
+rrlex   =0.850000023841858
+VRatio  =1.04999995231628
+kloss   =0.349999994039536
+ceffcl  =0.0500000007450581
+STClr   =1
+t_c_T   =0.100000001490116
+d_ec_T  =2.5
+SReheat =1
+ZT7     =1900
+etaRhds =0.899999976158142
+etaRhC  =1.60000002384186
+WclqW   =0.0299999993294477
+XM61    =0.180000007152557
+SNozzle =1
+A9qA8_a =1.20000004768372
+A9qA8_b =0
+A9qA8_c =0
+SNzCalc =1
+CFG8    =1
+ang8ds  =20
+ZCFG8   =1
+ZCD8    =1
+SOpt_Ld =1
+ZPWReqLd=0
+T1_Lf   =288.149993896484
+P1_Lf   =101.324996948242
+Pamb_Lf =101.324996948242
+etrLf   =1
+WRdsLf  =10
+PqPdsLf =2
+EdsLf   =0.899999976158142
+SpdDsLf =1
+BetaDsLf=0.5
+angVGLf =0
+d_W_VGLf=1
+d_P_VGLf=1
+d_E_VGLf=0.00999999977648258
+dANozzLf=0
+T1_Ld   =288.149993896484
+P1_Ld   =101.324996948242
+etrLd   =1
+WRdsLd  =15
+PqPdsLd =5
+EdsLd   =0.800000011920929
+SpdDsLd =1
+BetaDsLd=0.5
+BetaLd  =0.5
+angVGLd =0
+d_W_VGLd=1
+d_P_VGLd=1
+d_E_VGLd=0.00999999977648258
+SLoad=0
+LoadedSpoolName=connected
+
+[InputShow]
+alt     =2
+dtamb   =2
+humid   =2
+XM      =2
+ZW2Rstd =3
+P2q1    =2
+ZP3q2   =3
+T4_D    =3
+e34ds   =1
+e34C    =1
+FHV     =2
+WHDBLDq2=1
+hr_hdbld=1
+ZWBLD   =2
+ZWBLq2  =2
+h_bld   =1
+WCLNq2  =1
+WCLq2   =1
+DmCl_T  =3
+PWX     =2
+e_mech  =1
+P4q3    =1
+P6q5    =1
+InPar1  =3
+InPar2  =3
+InPar3  =3
+InPar4  =3
+InPar5  =3
+ZT1     =3
+ZP1     =3
+ZPamb   =3
+Zhumid  =3
+E23is   =3
+E23pol  =3
+NStgHPC =3
+FLossHPC=3
+XMexHC  =3
+RhqRtHC =3
+t_c_HC  =3
+d_ec_HC =3
+CXN_H   =3
+u_t_C   =3
+rr_i_C  =3
+XM_i_C  =3
+d2qd_C  =3
+d_min_HC=3
+E45is   =3
+E45pol  =3
+stg_T   =3
+w_EGV   =3
+dmin_T  =3
+dmex_T  =3
+rrlex   =3
+VRatio  =3
+kloss   =3
+ceffcl  =3
+t_c_T   =3
+d_ec_T  =3
+ZT7     =2
+etaRhds =1
+etaRhC  =1
+WclqW   =1
+XM61    =3
+A9qA8_a =1
+A9qA8_b =1
+A9qA8_c =1
+CFG8    =1
+ang8ds  =3
+ZCFG8   =2
+ZCD8    =2
+ZPWReqLd=2
+T1_Lf   =2
+P1_Lf   =2
+Pamb_Lf =2
+etrLf   =1
+WRdsLf  =4
+PqPdsLf =4
+EdsLf   =4
+SpdDsLf =4
+BetaDsLf=4
+angVGLf =5
+d_W_VGLf=5
+d_P_VGLf=5
+d_E_VGLf=5
+dANozzLf=5
+T1_Ld   =2
+P1_Ld   =2
+etrLd   =1
+WRdsLd  =4
+PqPdsLd =4
+EdsLd   =4
+SpdDsLd =4
+BetaDsLd=4
+BetaLd  =5
+angVGLd =5
+d_W_VGLd=5
+d_P_VGLd=5
+d_E_VGLd=5
+
+[Composed Values]
+CPSI=1
+CPKelvin=1
+CPRankine=1
+cp_val1=Undefined
+cp_val2=Undefined
+cp_val3=Undefined
+cp_val4=Undefined
+cp_val5=Undefined
+cp_val6=Undefined
+cp_val7=Undefined
+cp_val8=Undefined
+cp_val9=Undefined
+cp_va10=Undefined
+cp_va11=Undefined
+cp_va12=Undefined
+cp_va13=Undefined
+cp_va14=Undefined
+cp_va15=Undefined
+cp_va16=Undefined
+cp_va17=Undefined
+cp_va18=Undefined
+cp_va19=Undefined
+cp_va20=Undefined
+cp_va21=Undefined
+cp_va22=Undefined
+cp_va23=Undefined
+cp_va24=Undefined
+cp_va25=Undefined
+cp_va26=Undefined
+cp_va27=Undefined
+cp_va28=Undefined
+cp_va29=Undefined
+cp_va30=Undefined
+cp_va31=Undefined
+cp_va32=Undefined
+cp_va33=Undefined
+cp_va34=Undefined
+cp_va35=Undefined
+cp_va36=Undefined
+cp_va37=Undefined
+cp_va38=Undefined
+cp_va39=Undefined
+cp_va40=Undefined
+cp_va41=Undefined
+cp_va42=Undefined
+cp_va43=Undefined
+cp_va44=Undefined
+cp_va45=Undefined
+cp_va46=Undefined
+cp_va47=Undefined
+cp_va48=Undefined
+cp_va49=Undefined
+cp_va50=Undefined
+
+[Parameterstudy]
+DParameterName1=
+DParLow1=
+DValues1=
+DParStep1=
+DParHigh1=
+DParameterName2=
+DParLow2=
+DValues2=
+DParStep2=
+DParHigh2=
+ODParameterName1=
+ODParLow1=
+ODValues1=
+ODParStep1=
+ODParHigh1=
+ODParameterName2=
+ODParLow2=
+ODValues2=
+ODParStep2=
+ODParHigh2=
+
+[Design Iteration]
+Selected=1
+
+[Design Iteration1]
+Variable=Isentr.Compr.Efficiency
+Low  Limit=0
+High Limit=0.99
+Target Name=Net Thrust
+Target Value=0.22
+Checked=true
+
+[Design Iteration2]
+Variable=Burner Exit Temperature
+Low  Limit=0
+High Limit=1100
+Target Name=Nozzle Throat Temperature T8
+Target Value=993.15
+Checked=false
+
+[Design Iteration3]
+Variable=Burner Exit Temperature
+Low  Limit=0
+High Limit=1100
+Target Name=Sp. Fuel Consumption
+Target Value=43.9
+Checked=false
+
+[Design Iteration4]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration5]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Design Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration]
+Selected=0
+
+[Off Design Iteration1]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration2]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration3]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration4]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration5]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Off Design Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration]
+Analysis Method=0
+Selected=0
+
+[AnSyn Iteration1]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration2]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration3]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration4]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration5]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration6]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration7]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration8]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration9]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration10]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration11]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration12]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration13]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration14]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration15]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration16]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration17]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration18]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration19]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[AnSyn Iteration20]
+Variable=
+Low  Limit=
+High Limit=
+Target Name=
+Target Value=
+Checked=false
+
+[Optimization]
+Variable1=Undefined
+Var_low_limit1=0
+Var_high_limit1=0
+Constraint1=Undefined
+Con_low_limit1=0
+Con_high_limit1=0
+OffDesCon1=0
+Variable2=Undefined
+Var_low_limit2=0
+Var_high_limit2=0
+Constraint2=Undefined
+Con_low_limit2=0
+Con_high_limit2=0
+OffDesCon2=0
+Variable3=Undefined
+Var_low_limit3=0
+Var_high_limit3=0
+Constraint3=Undefined
+Con_low_limit3=0
+Con_high_limit3=0
+OffDesCon3=0
+Variable4=Undefined
+Var_low_limit4=0
+Var_high_limit4=0
+Constraint4=Undefined
+Con_low_limit4=0
+Con_high_limit4=0
+OffDesCon4=0
+Variable5=Undefined
+Var_low_limit5=0
+Var_high_limit5=0
+Constraint5=Undefined
+Con_low_limit5=0
+Con_high_limit5=0
+OffDesCon5=0
+Variable6=Undefined
+Var_low_limit6=0
+Var_high_limit6=0
+Constraint6=Undefined
+Con_low_limit6=0
+Con_high_limit6=0
+OffDesCon6=0
+Variable7=Undefined
+Var_low_limit7=0
+Var_high_limit7=0
+Constraint7=Undefined
+Con_low_limit7=0
+Con_high_limit7=0
+OffDesCon7=0
+FigureOfMerit=
+OffDesignFigureOfMerit=Undefined
+MaximizeFom=1
+
+[Limiter]
+NL=0
+NL setting=0
+NLR=0
+NLR setting=0
+NH=0
+NH setting=0
+NHR=0
+NHR setting=0
+T3=0
+T3 setting=0
+P3=0
+P3 setting=0
+T41=0
+T41 setting=0
+T45=0
+T45 setting=0
+T5=0
+T5 setting=0
+Trq=0
+Trq setting=0
+cp_val=0
+cp_val setting=0
+
+[Variable Geometry]
+Compressor=0
+a_vg=1
+b_vg=1
+c_vg=0.01
+
+[Auto Bleed]
+Setting=0
+Max Value 1=0
+Lower Switchpoint 1=0
+Upper Switchpoint 1=0
+Max Value 2=0
+Lower Switchpoint 2=0
+Upper Switchpoint 2=0
+
+[Flight Envelope]
+Max Alt=0
+Alt Pts=0
+Min EAS=0
+Max EAS=0
+EAS Pts=0
+Max XM=0
+
+[Control Tables]
+ln0=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln1=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln2=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln3=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln4=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln5=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln6=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln7=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln8=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln9=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln10=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln11=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln12=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln13=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln14=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln15=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln16=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln17=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln18=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln19=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln20=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln21=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln22=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln23=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln24=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln25=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln26=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln27=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln28=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln29=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln30=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln31=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln32=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln33=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln34=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln35=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln36=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln37=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln38=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln39=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln40=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln41=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln42=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln43=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln44=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln45=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln46=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln47=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln48=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln49=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln50=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln51=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln52=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln53=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln54=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln55=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln56=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln57=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln58=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln59=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln60=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln61=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln62=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+ln63=off                                 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+
+[BatchFiles]
+NumberOfJobs=0
+NumberOfOutputFiles=0
+
